@@ -3,11 +3,17 @@ body {
 }
 
 .menu a {
- 	color: #34363a;
+ 	color: #7d2c50;
  	font-size: 20px;
  	font-family: "sans serif";
  	font-variant: small-caps;
  	text-decoration: none;
+
+}
+
+a:hover {
+	color: grey;
+	text-decoration: underline;
 }
 
 .menu-list {
