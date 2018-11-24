@@ -44,3 +44,49 @@ body {
 	font-style: italic;
 	list-style-image: url(../img/other/arrow.gif);
 }
+input, legend {
+	color: #34363a;
+ 	font-family: "sans serif";
+ 	font-variant: small-caps;
+ 	font-size: 18px;
+}
+legend {
+	font-size: 20px;	
+}
+.form {
+	height: 20px;
+	width: 250px;
+	border-radius: 5px;
+	padding-left: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.form-textarea {
+	height: 100px;
+	width: 250px;
+	border-radius: 5px;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+
+.btn {
+	color: #34363a;
+	margin: 0px 10px 5px 20px;
+	height: 30px;
+	width: 100px;
+}
+
+.form-heading {
+	color: #515867;
+	margin: 20px;
+}
+
+.contacts {
+	margin: 20px;
+}
+
+.prod-img {
+	border-color: #786f94;
+    border-width: medium;
+}
