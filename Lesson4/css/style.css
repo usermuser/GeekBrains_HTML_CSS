@@ -9,6 +9,9 @@ body {
  	font-variant: small-caps;
  	text-decoration: none;
 }
+.menu a:hover {
+	color: red;
+}
 
 .menu-list {
 	list-style-type: none;
