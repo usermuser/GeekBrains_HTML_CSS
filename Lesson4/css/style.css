@@ -16,6 +16,12 @@ a:hover {
 	text-decoration: underline;
 }
 
+.logo {
+	padding-left: 40px;
+}
+.menu {
+	margin-top: 5px;
+}
 .menu-list {
 	list-style-type: none;
 	list-style-position: inside;
