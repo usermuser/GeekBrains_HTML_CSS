@@ -44,7 +44,7 @@ body {
 	font-style: italic;
 	list-style-image: url(../img/other/arrow.gif);
 }
-input, legend {
+input, legend h1 {
 	color: #34363a;
  	font-family: "sans serif";
  	font-variant: small-caps;
@@ -80,6 +80,7 @@ legend {
 .form-heading {
 	color: #515867;
 	margin: 20px;
+	
 }
 
 .contacts {
@@ -89,4 +90,33 @@ legend {
 .prod-img {
 	border-color: #786f94;
     border-width: medium;
+}
+
+h1, h2, h3, footer {
+	color: #34363a;
+ 	font-family: "sans serif";
+ 	font-variant: small-caps;
+ 	font-size: 30px;
+ 	margin-left: 20px;
+ 	/*text-align: center;*/
+}
+
+h1 {
+	color: #7d2c50;
+
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+
+}
+
+footer{
+	font-size: 18px;
+	text-align: center;
+	color: #211717;
 }
