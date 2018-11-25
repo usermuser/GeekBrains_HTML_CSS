@@ -19,15 +19,17 @@ a:hover {
 .logo {
 	padding-left: 40px;
 }
+
+
 .menu {
 	margin-top: 5px;
 }
+
 .menu-list {
 	list-style-type: none;
 	list-style-position: inside;
 
 }
-
 
 .prod-short-desc-p {
 	color: #707070;
@@ -56,16 +58,27 @@ a:hover {
 	font-style: italic;
 	list-style-image: url(../img/other/arrow.gif);
 }
+
 input, legend h1 {
 	color: #34363a;
  	font-family: "sans serif";
- 	font-variant: small-caps;
- 	font-size: 18px;
+ 	/*font-variant: small-caps;*/
+ 	font-size: 16px;
 }
 legend {
 	font-size: 20px;	
 }
+
 .form {
+	height: 20px;
+	width: 250px;
+	border-radius: 5px;
+	padding-left: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.form-email{
 	height: 20px;
 	width: 250px;
 	border-radius: 5px;
@@ -76,10 +89,16 @@ legend {
 
 .form-textarea {
 	height: 100px;
-	width: 250px;
+	width: 265px;
 	border-radius: 5px;
-	padding-left: 20px;
+	padding-left: 5px;
 	margin-top: 10px;
+}
+
+
+.form-email:focus {
+	color: #3573ef;
+	background: #90dcc1;
 }
 
 .btn {
@@ -87,6 +106,8 @@ legend {
 	margin: 0px 10px 5px 20px;
 	height: 30px;
 	width: 100px;
+	font-variant: small-caps;
+
 }
 
 .form-heading {
@@ -130,4 +151,16 @@ footer{
 	font-size: 18px;
 	text-align: center;
 	color: #211717;
+}
+table {
+	width: 500px;
+	height: 200px;
+	border: 1px solid #000;
+	border-color: collapse;
+	border-spacing: 0px;
+}
+
+td {
+	border: 1px solid #000;
+	text-align: center;
 }
