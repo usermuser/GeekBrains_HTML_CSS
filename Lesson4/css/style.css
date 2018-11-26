@@ -45,8 +45,13 @@ a:hover {
 	font-weight: 400;
 	line-height: 24px;
 	text-align: left;
-
 }
+
+.prod-detailed-desc-p::first-letter {
+	font-size: 130%;
+	color: red;
+}
+
 .specs  {
 	color: black;
 	font-size: 18px;
@@ -64,6 +69,7 @@ input, legend h1 {
  	font-family: "sans serif";
  	/*font-variant: small-caps;*/
  	font-size: 16px;
+ 	text-transform: capitalize;
 }
 legend {
 	font-size: 20px;	
@@ -76,7 +82,7 @@ legend {
 	padding-left: 20px;
 	margin-top: 10px;
 	font-size: 16px;
-	text-transform: capitalize;
+
 }
 
 .form-email{
@@ -175,6 +181,3 @@ table thead tr td {
 	height: 50px;
 }
 
-p {
-	text-transform: capitalize
-}
