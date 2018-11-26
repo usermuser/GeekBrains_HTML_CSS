@@ -1,5 +1,5 @@
 body {
- 	background: #f8f8f8
+ 	background: #f8f8f8;
 }
 
 .menu a {
@@ -122,6 +122,10 @@ legend {
 
 .prod-img {
 	border-color: #786f94;
+    border-width: medium;
+}
+.prod-img:hover {
+	border-color: #f8f8f8;
     border-width: medium;
 }
 
