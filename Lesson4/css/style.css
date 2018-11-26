@@ -76,6 +76,7 @@ legend {
 	padding-left: 20px;
 	margin-top: 10px;
 	font-size: 16px;
+	text-transform: capitalize;
 }
 
 .form-email{
@@ -85,6 +86,7 @@ legend {
 	padding-left: 20px;
 	margin-top: 10px;
 	font-size: 16px;
+	text-transform: capitalize;
 }
 
 .form-textarea {
@@ -93,6 +95,7 @@ legend {
 	border-radius: 5px;
 	padding-left: 5px;
 	margin-top: 10px;
+	text-transform: capitalize;
 }
 
 
@@ -170,4 +173,8 @@ td {
 }
 table thead tr td {
 	height: 50px;
+}
+
+p {
+	text-transform: capitalize
 }
