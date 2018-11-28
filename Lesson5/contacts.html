@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Главная BeautyShop</title>
+</head>
+    <body>
+        <header>
+            <img class="logo" 
+                src="img/other/logo100x100.png" 
+                alt="Logo" 
+                height="70px">
+                
+            <ul class="menu">
+                <li class="menu-list"><a href="index.html">главная</a></li>
+                <li class="menu-list"><a href="catalog.html">каталог</a></li>
+                <li class="menu-list"><a href="contacts.html">контакты</a></li>
+            </ul>
+
+            <hr>
+        </header>
+        
+        <h3 class="form-heading">Напишите нам. <br>
+        В поле формы textarea, осталось разобраться с перекрытием placeholder'а
+        </h3>
+        
+        <form action="send_email">
+            <fieldset>
+                <legend>Форма обратной связи</legend>
+                <input class="form" type="text" size="30" placeholder="Имя">
+                <br>
+                <input class="form-email" type="mail" size="30" placeholder="Email">
+                <br>
+                <input class="form" type="theme" size="30" placeholder="Тема">
+                <br>
+
+                <textarea type="text" class="form-textarea" 
+                          placeholder="Как же победить перекрытие placeholder'а?">
+                </textarea><br>
+
+                <input class="opt" type="checkbox">Вы оптовый покупатель?<br><br>
+                <input class="btn" type="submit" value="отправить">
+                <input class="btn" type="reset" value="очистить">
+            </fieldset>
+        </form>
+
+        <h3 class="form-heading">Контакты</h3>
+        <p class="contacts">+7 3555 3555</p>
+        <p class="contacts">город Москва, улица Ак. Королева 12</p>
+        <p class="contacts">email: woosh@yahoosh.com</p>
+
+        <a href="https://yandex.ru/maps/?um=constructor%3Aa48736c82a3f8f2bf09912f69142ed2555d6aefa0c1d5de91770cbc7c4461e74&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Aa48736c82a3f8f2bf09912f69142ed2555d6aefa0c1d5de91770cbc7c4461e74&amp;width=500&amp;height=400&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
+        
+        <footer>
+            <hr>
+            <p>&copy;&nbsp;Все права защищены</p>
+        </footer>
+
+    </body>
+</html>

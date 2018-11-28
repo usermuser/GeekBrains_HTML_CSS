@@ -1,0 +1,187 @@
+body {
+ 	background: #f8f8f8;
+}
+
+.menu a {
+ 	color: #7d2c50;
+ 	font-size: 20px;
+ 	font-family: "sans serif";
+ 	font-variant: small-caps;
+ 	text-decoration: none;
+
+}
+
+a:hover {
+	color: grey;
+	text-decoration: underline;
+}
+
+.logo {
+	padding-left: 40px;
+}
+
+
+.menu {
+	margin-top: 5px;
+}
+
+.menu-list {
+	list-style-type: none;
+	list-style-position: inside;
+
+}
+
+.prod-short-desc-p {
+	color: #707070;
+	/*font-size: 14px
+	font-style: italic;*/
+	line-height: 16px;
+}
+
+.prod-short-desc-p::first-letter {
+	font-size: 130%;
+	color: red;
+}
+
+.prod-detailed-desc-p {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.prod-detailed-desc-p::first-letter {
+	font-size: 130%;
+	color: red;
+}
+
+.specs  {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background: #eaeaea;
+}
+
+.specs-list li {
+	font-style: italic;
+	list-style-image: url(../img/other/arrow.gif);
+}
+
+input, legend h1 {
+	color: #34363a;
+ 	font-family: "sans serif";
+ 	/*font-variant: small-caps;*/
+ 	font-size: 16px;
+ 	text-transform: capitalize;
+}
+legend {
+	font-size: 20px;	
+}
+
+.form {
+	height: 20px;
+	width: 250px;
+	border-radius: 5px;
+	padding-left: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+
+}
+
+.form-email{
+	height: 20px;
+	width: 250px;
+	border-radius: 5px;
+	padding-left: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+.form-textarea {
+	height: 100px;
+	width: 265px;
+	border-radius: 5px;
+	padding-left: 5px;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+
+.form-email:focus {
+	color: #3573ef;
+	background: #90dcc1;
+}
+
+.btn {
+	color: #34363a;
+	margin: 0px 10px 5px 20px;
+	height: 30px;
+	width: 100px;
+	font-variant: small-caps;
+
+}
+
+.form-heading {
+	color: #515867;
+	margin: 20px;
+
+}
+
+.contacts {
+	margin: 20px;
+}
+
+.prod-img {
+	border-color: #786f94;
+    border-width: medium;
+}
+.prod-img:hover {
+	border-color: #f8f8f8;
+    border-width: medium;
+}
+
+h1, h2, h3, footer {
+	color: #34363a;
+ 	font-family: "sans serif";
+ 	font-variant: small-caps;
+ 	font-size: 30px;
+ 	margin-left: 20px;
+}
+
+h1 {
+	color: #7d2c50;
+
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+
+}
+
+footer{
+	font-size: 18px;
+	text-align: center;
+	color: #211717;
+}
+table {
+	width: 500px;
+	height: 200px;
+	border: 1px solid #000;
+	border-color: collapse;
+	border-spacing: 0px;
+}
+
+td {
+	border: 1px solid #000;
+	text-align: center;
+}
+table thead tr td {
+	height: 50px;
+}
+
