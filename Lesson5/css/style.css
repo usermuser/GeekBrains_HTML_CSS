@@ -6,6 +6,27 @@ body {
 	margin: 0;
 	padding: 0;
 }
+h1, h2, h3, footer {
+	color: #34363a;
+ 	font-family: "sans serif";
+ 	font-variant: small-caps;
+ 	font-size: 30px;
+ 	margin-left: 20px;
+}
+
+h1 {
+	color: #7d2c50;
+
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+
+}
 .container {
   width: 600px;
   margin: 0 auto;
@@ -59,4 +80,14 @@ body {
   display: flex;
   justify-content: flex-end;
   
+}
+
+.product {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.detailed-desc {
+	clear:both;
 }
