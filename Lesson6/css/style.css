@@ -31,7 +31,7 @@ body {
 .menu-ul {
     display: flex;
     margin-top: 57px;
-    margin-right: 110px;
+    margin-right: 80px;
     justify-content: space-around;
 }
 
@@ -68,3 +68,4 @@ body {
     width: 23px;
     height: 23px;
 }
+
