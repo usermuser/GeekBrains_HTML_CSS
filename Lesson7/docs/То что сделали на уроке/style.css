@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    margin-top: 57px;
+}
+
+.menu-list {
+    list-style-type: none;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.logo {
+    margin-top: 63px;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.slider-p {
+    width: 458px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+.trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.fishnet {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    letter-spacing: -3.6px;
+    text-transform: uppercase;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    display: inline-block;
+    letter-spacing: 3.6px;
+}
+
+.slider-text {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.circle {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #212121;
+    opacity: 0.2;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.circle:hover {
+    opacity: 1;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+}
+
+.pagination {
+    position: absolute;
+    width: 84%;
+    bottom: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
