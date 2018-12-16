@@ -563,3 +563,60 @@ font-weight: 700;
     font-size: 22px;
     font-weight: 400;
 }
+
+.footer-text-blocks2 {
+    display:flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.social-link {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #6c6c6c;
+    color: #f7f7f7;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+
+.social-link:hover {
+    background-color: #f7f7f7;
+    color: #6c6c6c;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 129px;
+    height: 28px;
+    
+}
+
+.copyright {
+    width: 376px;
+    height: 9px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "©,  Copyri" */
+    letter-spacing: 0.6px;
+}
+
+.terms {
+    width: 362px;
+height: 9px;
+color: #6c6c6c;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+/* Text style for "©,  Copyri" */
+letter-spacing: 0.6px;
+}
