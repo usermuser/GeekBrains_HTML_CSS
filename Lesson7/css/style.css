@@ -538,7 +538,7 @@ font-weight: 700;
 
 }
 
-.email-input {
+     .email-input {
     width: 370px;
     height: 48px;
     border: 1px solid #d9dee1;
@@ -558,5 +558,8 @@ font-weight: 700;
     height: 25px;
     top: 38px;
     left: 337px;
-
+    border:none;
+    background-color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
 }
